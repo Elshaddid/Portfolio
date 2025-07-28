@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiable" contenet="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7574484590.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                
+                <nav>
+                    <img src="image/logo.png" class="log">
+                    <ul id="sidemenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                
+               
+                <div class="header-text">
+                
+                    <p>Elshaddi Dereje </p>
+                    <h1>Hi, I'm a  <span><br>Software Developer</span></h1>
+                    <div class="img">
+                        <img src="image/profile-pic (9).png" width="50%">
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+<!--About page -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/abut.jpg">
+                    </div>
+                    <div class ="about-col-2">
+                        <h1 class="subtitle ">About Me</h1>
+                        <p>Dedicated developer with interested in the web and mobile
+                            app development. Eager to learn new thing and grow in my
+                            profession. interested in new and upcoming technology's like
+                            IOT and AI </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expriance')">Expriance </p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End</span><br>Web Development </li>
+                                <li><span>Cloud</span><br>Cloud Computing </li>
+                                <li><span>Teching</span><br>Code traniner </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="expriance">
+                            <ul>
+                                <li><span>2022-2024</span><br>Software Development </li>
+                                <li><span>2023-2024</span><br>Code teacher and Content Creation </li>
+                                <li><span>2023- Current </span><br>Cloud Computing</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2004-2019</span><br>Magic Carpate School, Elementery and Highschool</li>
+                                <li><span>2019 -2022</span><br>BAs In Computer Science  Unity University</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle ">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Designe Front-End of website using Html, Css, Js and React for a frame work </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python</h2>
+                        <p>I have expriance with Python can develpe using python also 
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cloud"></i>
+                        <h2>Cloud</h2>
+                        <p>Currently practicing cloud computing getting my education in AWS and AZUBI
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle ">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/ft.jpg">
+                        <div class="layer">
+                            <h3>Resturant website</h3>
+                            <p>The wesbites shows you all the resturants services. </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/r.avif">
+                        <div class="layer">
+                            <h3>Ecommers website</h3>
+                            <p>The website is a website where you can finde climate friendly produtes to buy </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/c.webp">
+                        <div class="layer">
+                            <h3>Monasty Gudiens and travel</h3>
+                            <p>This websit was my final year project it a webite that shows you all the monastery that are in ethiopa its like a guide to them </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See All</a>
+            </div>
+
+            
+        </div>
+
+        <!--Contact Us-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        
+                        <p><i class="fa-solid fa-paper-plane"></i> elshaddidereje@gmai.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i> 0931721264</p>
+                        <div class="social-icon">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/ElshaddiDereje"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://github.com/Elshaddid"><i class="fa-brands fa-github"></i></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="Elshu_377418159.pdf"  class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Enter Your name" required>
+                            <input type="email" name="email" placeholder="Enter Your email" required>
+                            <textarea name="massage" rows="6" placeholder="Enter Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © Elshaddi Dereje. Made by following Easy Tutorials.</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-350px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby1-_C_lY2ND28ltH0ips2TIUv20dn97XNjkWWna_vRaLEuDxS-t95pStsEMxnO6VAHzA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = " "
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
